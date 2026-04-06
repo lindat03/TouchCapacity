@@ -6,12 +6,10 @@ An interactive capacitive-touch device built with an ESP32 TTGO T-Display. The u
 
 ## Demo
 
-| State    | Screen color         | What's happening                                  |
-_______________________________________________________________________________________
-| Idle     | Off                  | Waiting for interaction                           |
-| Rubbing  | Warm yellow flicker  | User rubs jar — must hold 3 continuous seconds    |
-| Ready    | Steady blue pulse    | Jar is ready — user speaks wish into lid          |
-| Granting | Random color flashes | Lid tapped — wish sent, returns to Ready after 3s |
+1. Idle (off): Waiting for interaction   
+2. Rubbing (warm yellow flicker): User rubs jar — must hold 5 continuous seconds
+3. Ready (steady blue): Jar is ready — user speaks wish into lid
+4. Granting (color flashing): Lid tapped — wish sent, returns to Ready after 3s
 
 ---
 
@@ -28,13 +26,13 @@ ________________________________________________________________________________
 
 ### Pin Mapping
 
-| ESP32 Pin | Touch Pin | Connected to |
+ESP32 Pin -- Touch Pin -- Connected to
 
-| GPIO4 | T0 | Copper strip 1 (side) |
-| GPIO2 | T2 | Copper strip 2 (side) |
-| GPIO15 | T3 | Copper strip 3 (side) |
-| GPIO13 | T4 | Copper strip 4 (side) |
-| GPIO32 | T9 | Copper strip 5 (lid) |
+1. GPIO4 (T0): Copper strip 1 (side)
+2. GPIO2 (T2): Copper strip 2 (side)
+3. GPIO15 (T3): Copper strip 3 (side)
+4. GPIO13 (T4): Copper strip 4 (side)
+5. GPIO32 (T9): Copper strip 5 (lid)
 
 ---
 

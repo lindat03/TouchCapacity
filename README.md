@@ -1,4 +1,5 @@
 # Wishing Jar
+![wishing_jar2](https://github.com/user-attachments/assets/58679338-9027-4683-821c-32d97a6ac094)
 
 An interactive capacitive-touch device built with an ESP32 TTGO T-Display. The user rubs the outside of a glass jar to awaken it, speaks a wish into the lid, then taps the lid to send it. The TTGO's onboard screen glows yellow while rubbing, transitions to blue when the jar is ready, and bursts into random colors when the wish is granted. A companion Python visualizer on the laptop mirrors the lighting effects and plays synchronized audio.
 
